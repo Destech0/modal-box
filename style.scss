@@ -1,0 +1,33 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-size: 19px;
+
+    main {
+        .modal-overlay {
+            display: none;
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(236, 234, 231, 0.9);
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 5;
+            .modal-container {
+                width: 500px;
+                height: 130px;
+                border: 1px solid red;
+                background-color: bisque;
+                position: fixed;
+                top: 40%;
+                z-index: 8;
+                // margin: 0 auto;
+            }
+        }
+    }
+}
+
+.dark {
+    background-color: #000;
+    color: white;
+}
